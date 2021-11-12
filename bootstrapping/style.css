@@ -1,0 +1,40 @@
+body {
+	overflow-x: hidden;
+	background :  no-repeat center center fixed;
+	font-family: 'Times New Roman', Sans-serif;
+	height     : 100%;
+    width      : 100%;
+    margin     : 0;  
+
+    background-size: cover;
+    align-content: center;
+}
+
+#atas {
+	background: url('bread1.png');
+	padding: 20px 70px 80px 70px;
+}
+
+#tombol{
+	border: none;
+	border-radius: 30px;
+	padding: 6px;
+	background-color: #b61515;
+	color: white;
+}
+
+#tombolkotak{
+	border: 1px solid grey;
+	border-radius: 30px;
+	padding: 6px;
+	background-color: white;
+	color: grey;
+}
+
+#kotak {
+	border: 4px grey;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 2px 2px 8px grey;
+}
